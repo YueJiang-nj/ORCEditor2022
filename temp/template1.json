@@ -1,0 +1,156 @@
+{
+    "Areas": [
+        {
+            "area_id": "area_1",
+            "bottom_tabstop": "h1",
+            "left_tabstop": "left",
+            "right_tabstop": "right",
+            "top_tabstop": "top"
+        },
+        {
+            "area_id": "area_2",
+            "bottom_tabstop": "h2",
+            "left_tabstop": "left",
+            "right_tabstop": "v1",
+            "top_tabstop": "h1"
+        },
+        {
+            "area_id": "area_3",
+            "bottom_tabstop": "h2",
+            "left_tabstop": "v1",
+            "right_tabstop": "v2",
+            "top_tabstop": "h1"
+        },
+        {
+            "area_id": "area_4",
+            "bottom_tabstop": "h2",
+            "left_tabstop": "v2",
+            "right_tabstop": "v3",
+            "top_tabstop": "h1"
+        },
+        {
+            "area_id": "area_5",
+            "bottom_tabstop": "h2",
+            "left_tabstop": "v3",
+            "right_tabstop": "right",
+            "top_tabstop": "h1"
+        },
+        {
+            "area_id": "area_6",
+            "bottom_tabstop": "bottom",
+            "left_tabstop": "left",
+            "right_tabstop": "v1",
+            "top_tabstop": "h2"
+        },
+        {
+            "area_id": "area_7",
+            "bottom_tabstop": "bottom",
+            "left_tabstop": "v1",
+            "right_tabstop": "v2",
+            "top_tabstop": "h2"
+        },
+        {
+            "area_id": "area_8",
+            "bottom_tabstop": "bottom",
+            "left_tabstop": "v2",
+            "right_tabstop": "v3",
+            "top_tabstop": "h2"
+        },
+        {
+            "area_id": "area_9",
+            "bottom_tabstop": "bottom",
+            "left_tabstop": "v3",
+            "right_tabstop": "right",
+            "top_tabstop": "h2"
+        }
+    ],
+    "Tabstops": [
+        {
+            "orientation": "h",
+            "tabstop_id": "h1"
+        },
+        {
+            "orientation": "h",
+            "tabstop_id": "h2"
+        },
+        {
+            "orientation": "v",
+            "tabstop_id": "v1"
+        },
+        {
+            "orientation": "v",
+            "tabstop_id": "v2"
+        },
+        {
+            "orientation": "v",
+            "tabstop_id": "v3"
+        }
+    ],
+    "Widgets": [
+        {
+            "area_id": "area_1",
+            "content": "./images/1.jpg",
+            "pref_height": 362,
+            "pref_width": 768,
+            "type": "image"
+        },
+        {
+            "area_id": "area_2",
+            "content": "Situated in the Yangtze River Delta region, Nanjing has a prominent place in Chinese history and culture, having served as the capital of various Chinese dynasties, kingdoms and republican governments dating from the 3rd century to 1949. It suffered severe atrocities in conflicts, such as the Nanjing massacre. It has been one of the world's largest cities, enjoying peace and prosperity despite wars and disasters.",
+            "pref_height": 239,
+            "pref_width": 406,
+            "type": "text"
+        },
+        {
+            "area_id": "area_3",
+            "content": "./images/3.jpg",
+            "pref_height": 350,
+            "pref_width": 550,
+            "type": "image"
+        },
+        {
+            "area_id": "area_4",
+            "content": "Nanjing has a humid subtropical climate and is influenced by the East Asian monsoon. The four seasons are distinct, with damp conditions seen throughout the year, very hot and muggy summers, cold, damp winters, and in between, spring and autumn are of reasonable length. Along with Chongqing and Wuhan, Nanjing is traditionally referred to as one of the Three Furnaces along the Yangtze River for the perennially high temperatures in the summertime.",
+            "pref_height": 239,
+            "pref_width": 406,
+            "type": "text"
+        },
+        {
+            "area_id": "area_5",
+            "content": "./images/5.jpg",
+            "pref_height": 350,
+            "pref_width": 550,
+            "type": "image"
+        },
+        {
+            "area_id": "area_6",            
+            "content": "Being one of the four ancient capitals of China, Nanjing has always been a cultural center attracting intellectuals from all over the country. Nanjing was a place where poets gathered and composed poems reminiscent of its luxurious past; The city was the official imperial examination center (Jiangnan Examination Hall) for the Jiangnan region, again acting as a hub where different thoughts and opinions converged and thrived.",
+            "pref_height": 239,
+            "pref_width": 406,
+            "type": "text"
+        },
+        {
+            "area_id": "area_7",
+            "content": "./images/7.jpg",
+            "pref_height": 350,
+            "pref_width": 550,
+            "type": "image"
+        },
+        {
+            "area_id": "area_8",
+            "content": "Many of the city's local favorite dishes are based on ducks, including Nanjing salted duck, duck blood and vermicelli soup, and duck oil pancake. The local cuisine in Nanjing is called Jinling cuisine. Jinling cuisine is famous for its meticulous process, emphasizing no added preservatives and its seasonality. Its duck and goose dishes are well known among Chinese for centuries.",
+            "pref_height": 239,
+            "pref_width": 406,
+            "type": "text"
+
+
+        },
+        {
+            "area_id": "area_9",
+            "content": "./images/9.jpg",
+            "pref_height": 350,
+            "pref_width": 550,
+            "type": "image"
+        }
+    ]
+}

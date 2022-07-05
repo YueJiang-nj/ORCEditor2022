@@ -1,0 +1,220 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://addons/orc_editor/new_dynamicfont.tres" type="DynamicFont" id=1]
+[ext_resource path="res://addons/orc_editor/red_color.tres" type="Theme" id=2]
+
+[sub_resource type="StyleBoxEmpty" id=1]
+
+[node name="Preview" type="Control"]
+anchor_left = 0.000348896
+anchor_top = -0.00201558
+anchor_right = 1.132
+anchor_bottom = 1.183
+margin_left = 149.643
+margin_top = 81.2094
+margin_right = -669.168
+margin_bottom = -269.8
+rect_scale = Vector2( 0.997605, 1 )
+rect_pivot_offset = Vector2( -317.643, -67.0689 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="2" type="Button" parent="."]
+margin_left = 87.0
+margin_right = 174.0
+margin_bottom = 80.0
+custom_fonts/font = ExtResource( 1 )
+text = "2"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="3" type="Button" parent="."]
+margin_left = 175.0
+margin_right = 262.0
+margin_bottom = 80.0
+custom_fonts/font = ExtResource( 1 )
+text = "3"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="A" type="Button" parent="."]
+margin_top = 80.0
+margin_right = 87.0
+margin_bottom = 167.0
+custom_fonts/font = ExtResource( 1 )
+text = "A"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="B" type="Button" parent="."]
+margin_top = 167.0
+margin_right = 87.0
+margin_bottom = 254.0
+custom_fonts/font = ExtResource( 1 )
+text = "B"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="C" type="Button" parent="."]
+margin_top = 253.0
+margin_right = 87.0
+margin_bottom = 340.0
+custom_fonts/font = ExtResource( 1 )
+text = "C"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="D" type="Button" parent="."]
+margin_top = 340.0
+margin_right = 87.0
+margin_bottom = 427.0
+custom_fonts/font = ExtResource( 1 )
+text = "D"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="7" type="Button" parent="."]
+anchor_left = -9.78129e-08
+anchor_top = 0.00182388
+anchor_bottom = 0.00182388
+margin_left = 525.0
+margin_top = -0.656597
+margin_right = 612.0
+margin_bottom = 79.3434
+custom_fonts/font = ExtResource( 1 )
+text = "7"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="4" type="Button" parent="."]
+margin_left = 262.0
+margin_right = 349.0
+margin_bottom = 80.0
+custom_fonts/font = ExtResource( 1 )
+text = "4"
+
+[node name="E" type="Button" parent="."]
+margin_top = 427.0
+margin_right = 87.0
+margin_bottom = 514.0
+custom_fonts/font = ExtResource( 1 )
+text = "E"
+
+[node name="F" type="Button" parent="."]
+margin_top = 513.0
+margin_right = 87.0
+margin_bottom = 600.0
+custom_fonts/font = ExtResource( 1 )
+text = "F"
+
+[node name="Text" type="TextEdit" parent="."]
+anchor_left = -0.00782368
+anchor_top = -0.00293451
+anchor_right = -0.00782365
+anchor_bottom = -0.00293448
+margin_left = 89.66
+margin_top = 81.0564
+margin_right = 702.66
+margin_bottom = 601.056
+custom_fonts/font = ExtResource( 1 )
+text = " CHI2022"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="6" type="Button" parent="."]
+margin_left = 437.0
+margin_right = 524.0
+margin_bottom = 80.0
+custom_fonts/font = ExtResource( 1 )
+text = "6"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="1" type="Button" parent="."]
+anchor_top = 0.0031029
+anchor_bottom = 0.0031029
+margin_top = -1.11704
+margin_right = 87.0
+margin_bottom = 78.883
+custom_fonts/font = ExtResource( 1 )
+text = "1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="8" type="Button" parent="."]
+anchor_left = -0.00183184
+anchor_top = -0.0021358
+anchor_right = -0.00183184
+anchor_bottom = -0.0021358
+margin_left = 612.623
+margin_top = 0.768888
+margin_right = 699.623
+margin_bottom = 80.7689
+custom_fonts/font = ExtResource( 1 )
+text = "8"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PopupDialog" type="PopupDialog" parent="."]
+margin_top = 80.0
+margin_right = 267.0
+margin_bottom = 264.0
+theme = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="info" type="Label" parent="PopupDialog"]
+margin_left = 14.0
+margin_top = 17.0
+margin_right = 259.0
+margin_bottom = 237.0
+custom_styles/normal = SubResource( 1 )
+custom_fonts/font = ExtResource( 1 )
+custom_colors/font_color = Color( 0.996078, 1, 0.678431, 1 )
+text = "Button 1:
+In a Horizontal Flow containing widgets 1, 2, 3, 4, 5, 6, 7, 8 with an optional widget 5.
+"
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="error" type="Label" parent="PopupDialog"]
+margin_left = 2.00693
+margin_top = 1.0
+margin_right = 269.007
+margin_bottom = 221.0
+custom_fonts/font = ExtResource( 1 )
+custom_colors/font_color = Color( 0.909804, 0.309804, 0.309804, 1 )
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="5" type="Button" parent="."]
+anchor_left = -0.000883054
+anchor_top = 0.00136798
+anchor_right = -0.000883054
+anchor_bottom = 0.00136798
+margin_left = 350.3
+margin_top = -0.492473
+margin_right = 437.3
+margin_bottom = 79.5075
+custom_fonts/font = ExtResource( 1 )
+text = "5"
+__meta__ = {
+"_edit_use_anchors_": false
+}

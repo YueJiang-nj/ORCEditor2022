@@ -1,0 +1,89 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://addons/orc_editor/new_dynamicfont.tres" type="DynamicFont" id=1]
+
+[node name="UI1" type="Control"]
+anchor_left = 0.000348896
+anchor_top = -0.00201558
+anchor_right = 1.132
+anchor_bottom = 1.183
+margin_left = 151.643
+margin_top = 87.2094
+margin_right = -327.168
+margin_bottom = -125.8
+rect_scale = Vector2( 0.997605, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="2" type="Button" parent="."]
+margin_left = 85.0
+margin_right = 170.0
+margin_bottom = 80.0
+custom_fonts/font = ExtResource( 1 )
+text = "2"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="3" type="Button" parent="."]
+margin_left = 170.0
+margin_right = 255.0
+margin_bottom = 80.0
+custom_fonts/font = ExtResource( 1 )
+text = "3"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="7" type="Button" parent="."]
+anchor_left = -9.78129e-08
+anchor_top = 0.00182388
+anchor_bottom = 0.00182388
+margin_left = 510.0
+margin_top = -0.908292
+margin_right = 595.0
+margin_bottom = 79.0917
+custom_fonts/font = ExtResource( 1 )
+text = "7"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="5" type="Button" parent="."]
+anchor_left = -0.000883054
+anchor_top = 0.00136798
+anchor_right = -0.000883054
+anchor_bottom = 0.00136798
+margin_left = 340.6
+margin_top = -0.681254
+margin_right = 425.6
+margin_bottom = 79.3187
+custom_fonts/font = ExtResource( 1 )
+text = "5"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="1" type="Button" parent="."]
+anchor_top = 0.0031029
+anchor_bottom = 0.0031029
+margin_left = -4.64354
+margin_top = -1.54525
+margin_right = 80.3564
+margin_bottom = 78.4548
+custom_fonts/font = ExtResource( 1 )
+text = "1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="6" type="Button" parent="1"]
+margin_left = 425.0
+margin_right = 510.0
+margin_bottom = 80.0
+custom_fonts/font = ExtResource( 1 )
+text = "6"
+__meta__ = {
+"_edit_use_anchors_": false
+}

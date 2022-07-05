@@ -1,0 +1,130 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://test.gd" type="Script" id=1]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextEdit" type="TextEdit" parent="."]
+anchor_left = -0.000545204
+anchor_top = -0.000930506
+anchor_right = -0.000545204
+anchor_bottom = -0.000930481
+margin_left = -1.19209e-07
+margin_top = -1.11665
+margin_right = 618.0
+margin_bottom = 403.884
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OpenFile" type="Button" parent="."]
+anchor_top = 0.000930506
+anchor_bottom = 0.000930506
+margin_left = 629.442
+margin_top = 9.24308
+margin_right = 773.442
+margin_bottom = 54.2431
+text = "Open File"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SaveFile" type="Button" parent="."]
+margin_left = 799.64
+margin_top = 10.3597
+margin_right = 943.64
+margin_bottom = 55.3597
+text = "Save File"
+
+[node name="FileDialog" type="FileDialog" parent="."]
+margin_left = 248.633
+margin_top = 77.6979
+margin_right = 817.633
+margin_bottom = 351.698
+rect_min_size = Vector2( 400, 140 )
+window_title = "Open a File"
+mode = 0
+access = 2
+current_dir = "/Users/yuejiang/Documents/HCI Projects/CHI2022_ORCEditor/orc_editor"
+current_path = "/Users/yuejiang/Documents/HCI Projects/CHI2022_ORCEditor/orc_editor/"
+
+[node name="SaveFileDialog" type="FileDialog" parent="."]
+margin_left = 248.633
+margin_top = 77.6979
+margin_right = 817.633
+margin_bottom = 351.698
+rect_min_size = Vector2( 400, 140 )
+access = 2
+current_dir = "/Users/yuejiang/Documents/HCI Projects/CHI2022_ORCEditor/orc_editor"
+current_path = "/Users/yuejiang/Documents/HCI Projects/CHI2022_ORCEditor/orc_editor/"
+
+[node name="MenuButtonFile" type="MenuButton" parent="."]
+anchor_left = -0.031
+anchor_top = -0.027
+anchor_right = -0.031
+anchor_bottom = -0.027
+margin_left = 46.0141
+margin_top = 60.6853
+margin_right = 119.014
+margin_bottom = 80.6853
+text = "File"
+switch_on_hover = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MenuButtonHelp" type="MenuButton" parent="."]
+anchor_left = -0.031
+anchor_top = -0.027
+anchor_right = -0.031
+anchor_bottom = -0.027
+margin_left = 137.951
+margin_top = 58.856
+margin_right = 210.951
+margin_bottom = 78.856
+focus_mode = 2
+text = "Help"
+switch_on_hover = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AboutDialog" type="WindowDialog" parent="."]
+margin_right = 373.0
+margin_bottom = 170.0
+window_title = "About"
+
+[node name="Label" type="Label" parent="AboutDialog"]
+margin_left = 41.9433
+margin_top = 27.5385
+margin_right = 172.943
+margin_bottom = 124.539
+text = "Hello, Yue!"
+
+[node name="Button" type="Button" parent="."]
+margin_left = 676.484
+margin_top = 94.9753
+margin_right = 867.484
+margin_bottom = 307.975
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+
+[node name="PopupDialog" type="PopupDialog" parent="."]
+margin_left = 182.008
+margin_top = 3.90814
+margin_right = 491.008
+margin_bottom = 189.908
+
+[connection signal="pressed" from="OpenFile" to="." method="_on_OpenFile_pressed"]
+[connection signal="pressed" from="SaveFile" to="." method="_on_SaveFile_pressed"]
+[connection signal="file_selected" from="FileDialog" to="." method="_on_FileDialog_file_selected"]
+[connection signal="file_selected" from="SaveFileDialog" to="." method="_on_SaveFileDialog_file_selected"]

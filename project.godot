@@ -1,0 +1,61 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=4
+
+_global_script_classes=[ {
+"base": "Container",
+"class": "ORCColumn",
+"language": "GDScript",
+"path": "res://addons/ORCColumn/ORCColumnSignal.gd"
+}, {
+"base": "Container",
+"class": "ORCRow",
+"language": "GDScript",
+"path": "res://addons/ORCRow/ORCRowSignal.gd"
+}, {
+"base": "Object",
+"class": "TypeFormattingLogic",
+"language": "GDScript",
+"path": "res://addons/metadata_inspector/TypeFormattingLogic.gd"
+} ]
+_global_script_class_icons={
+"ORCColumn": "",
+"ORCRow": "",
+"TypeFormattingLogic": ""
+}
+
+[application]
+
+config/name="orc-editor"
+run/main_scene="res://addons/orc_editor/orc_editor.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+Globals="*res://Globals.gd"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/ORCColumn/plugin.cfg", "res://addons/ORCRow/plugin.cfg", "res://addons/metadata_inspector/plugin.cfg", "res://addons/orc_editor/plugin.cfg" )
+
+[gdnative]
+
+singletons=[ "res://temp/pythonscript.gdnlib" ]
+
+[locale]
+
+path="res://;res://lib"
+
+[python_script]
+
+path="res://;res://lib;/opt/anaconda3/lib/python3.7; /opt/anaconda3/lib/python37.zip; /opt/anaconda3/lib/python3.7/lib-dynload; /opt/anaconda3/lib/python3.7/site-packages"
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"

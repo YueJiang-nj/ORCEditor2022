@@ -1,0 +1,45 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://addons/orc_editor/new_dynamicfont.tres" type="DynamicFont" id=1]
+
+[node name="UI1" type="Control"]
+anchor_left = 0.000348896
+anchor_top = -0.00201558
+anchor_right = 1.132
+anchor_bottom = 1.183
+margin_left = 152.643
+margin_top = 95.2094
+margin_right = -412.168
+margin_bottom = 184.2
+rect_scale = Vector2( 0.997605, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="2" type="Button" parent="."]
+anchor_top = 0.0031029
+anchor_right = 0.257
+anchor_bottom = 0.209
+margin_left = 67.0048
+margin_top = 384.3
+margin_right = 114.347
+margin_bottom = 319.582
+custom_fonts/font = ExtResource( 1 )
+text = "2"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="1" type="Button" parent="."]
+anchor_top = 0.0031029
+anchor_right = 0.257
+anchor_bottom = 0.209
+margin_left = 64.6667
+margin_top = 197.518
+margin_right = 112.009
+margin_bottom = 132.8
+custom_fonts/font = ExtResource( 1 )
+text = "1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
